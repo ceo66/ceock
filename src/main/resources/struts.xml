@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.6//EN"
+        "http://struts.apache.org/dtds/struts-2.6.dtd">
+
+<struts>
+
+
+   <!-- <constant name="struts.custom.i18n.resources"  value="myBaseName"></constant>-->
+    <constant name="struts.enable.DynamicMethodInvocation" value="true"/>
+    <constant name="struts.multipart.maxSize" value="20971520"></constant>
+    <package name="xxx" namespace="/test" extends="struts-default" >
+<!--debug常量开始方法
+    <constant name="struts.devMode" value="true"></constant>
+    -->
+
+<!--
+        <action name="check" class="com.example.creatsestruct.check">
+            <result name="success">/success.jsp</result>
+        </action>
+        -->
+<!--动态方法定义
+        <action name="user" class="com.example.creatsestruct.LoginAction" method="user">
+            <result name="usersuccess">/userWelcome.jsp</result>
+        </action>
+        <action name="admin" class="com.example.creatsestruct.LoginAction" method="admin">
+            <result name="adminsuccess">/adminWelcome.jsp</result>
+        </action>
+
+        <action name="login" class="com.example.creatsestruct.LoginAction">
+            <result name="usersuccess">/userWelcome.jsp</result>
+            <result name="adminsuccess">/adminWelcome.jsp</result>
+        </action>
+
+        <action name="login-*" class="com.example.creatsestruct.LoginAction" method="{1}">
+            <result name="usersuccess">/userWelcome.jsp</result>
+            <result name="adminsuccess">/adminWelcome.jsp</result>
+        </action>
+        -->
+        <!--对象驱动
+        <action name="login" class="com.example.creatsestruct.LoginAction">
+            <result name="success">/welcome.jsp</result>
+        </action>
+        -->
+        <!--模型驱动
+        <action name="login" class="com.example.creatsestruct.LoginAction">
+            <result name="success">/welcome.jsp</result>
+        </action>-->
+<!--
+        <action name="test" class="com.example.creatsestruct.TestAction">
+            <result >/welcome.jsp</result>
+        </action>
+    </package>
+-->
+    <!--struts自定义类型转换
+        <action name="login" class="com.example.creatsestruct.LoginAction6">
+            <result name="success">/welcome6.jsp</result>
+            <result name="input">/index6.jsp</result>
+        </action>
+
+
+        <action name="login" class="com.example.creatsestruct.LoginAction7">
+            <result name="success">/welcome7.jsp</result>
+            <result name="input">/index7.jsp</result>
+        </action>
+        <action name="login-*" class="com.example.creatsestruct.LoginAction7" method="{1}">
+            <result name="success">/welcome7.jsp</result>
+            <result name="input">/index7.jsp</result>
+        </action>-->
+
+
+    <!--<constant name="struts.enable.DynamicMethodInvocation" value="true"/>
+    <constant name="struts.multipart.maxSize" value="20971520"></constant>-->
+    <!--<package name="fileUploadDemo"  extends="struts-default" >
+  <package name="fileUploadDemo" extends="struts-default">-->
+        <global-allowed-methods>regex:.*</global-allowed-methods>
+        <action name="fileUpload"  class="com.example.creatsestruct.Upload" >
+            <result name="success">/welcome8.jsp</result>
+          <result name="fail">/index8.jsp</result>
+            <interceptor-ref name="fileUploadStack"></interceptor-ref>
+
+        </action>
+
+
+    </package>
+</struts>
