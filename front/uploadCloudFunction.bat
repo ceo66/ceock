@@ -1,0 +1,1 @@
+"D:\WXleting\微信web开发者工具\cli.bat" cloud functions deploy --e cloud1-1ggq1xwm698c7bd4 --n quickstartFunctions --r --project "E:\item\carbon\front" --report_first --report

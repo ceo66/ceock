@@ -1,0 +1,16 @@
+<!--components/questionItem/questionItem.wxml-->
+<view class="question">
+  <text class="number">{{questionItem.index}}、</text>
+  <text>{{questionItem.title}}</text>
+  <view class="answer">
+    <radio-group bindchange="radioChange" data-questionItem="{{questionItem}}">
+        <label class="weui-cell weui-check__label" wx:for="{{questionItem.answer}}" wx:key="index">
+          <view class="weui-cell__hd" >
+            <radio value="{{item.id}}"/>
+            <text>{{item.title}}</text>
+          </view>
+          <view class="weui-cell__bd">{{item.name}}</view>
+        </label>
+      </radio-group>
+  </view>
+</view>

@@ -1,0 +1,127 @@
+/* pages/home/home.wxss *//* pages/home/home.wxss */
+page{
+  color: #333;
+  background: #f2f2f2;
+}
+/*  盒子阴影  */
+.wrap{
+  background: white;
+  box-shadow: 1px 2px 3px #337a04;
+}
+/*  上边距  */
+.mt40{
+  margin-top: 40rpx;
+}
+.m5{
+  margin-left: 5%;
+  margin-right: 5%;
+}
+/*  swiper  */
+swiper{
+  height: 380rpx;
+}
+swiper image{
+  height: 100%;
+  width: 100%;
+}
+/*  topTab  */
+.topTab{
+  height: 200rpx;
+  display: flex;
+  /*水平环绕*/
+  justify-content: space-around;
+  /*垂直居中*/
+  align-items: center;       
+}
+.topTab view{
+  width: 22%;
+  height: 80%;
+ /* border: 1px solid darkkhaki;*/
+  display: flex;
+  /*改变主轴位置，使竖轴变成主轴*/
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.topTab view image{
+  height: 100rpx;
+  width: 100rpx;
+}
+#shop{
+  height: 80rpx;
+  width: 80rpx;
+  padding-bottom: 20rpx;
+}
+#compensating{
+  height: 75rpx;
+  width: 80rpx;
+  padding-bottom: 20rpx;
+}
+.topTab view text{
+  font-size: 35rpx;
+}
+
+/* .knowSelf{
+
+} */
+.titleWrap{
+  height:44rpx;
+  padding:20rpx 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.titleWrap>text{
+  font-size: 32rpx;
+}
+.titleWrap>text text:first-child{
+  width: 12rpx;
+  height: 40rpx;
+  display: inline-block;
+  border-left: 6rpx solid #057c05;
+}
+.titleWrap>text:last-child{
+  font-size: 32rpx;
+}
+
+movable-area{
+  height: 400rpx;
+  width: 100%;
+}
+movable-view{
+  height: 400rpx;
+  width: 745%;
+  display: flex;
+}
+movable-view view{
+  margin-left: 12rpx;
+}
+#leaf{
+  height: 50rpx;
+  width: 50rpx;
+  margin-right: 10rpx;
+  border: 0;
+}
+.selfCon image{
+  border: 3px solid rgb(68, 199, 90);
+  border-radius: 6%;
+  height: 300rpx;
+  width: 580rpx;
+}
+.selfCon view{
+  margin-right: 1.8%;
+}
+.selfCon .larInd{
+  margin-left: 22rpx;
+  color: #067a3a;
+  font-size: 34rpx;
+}
+.selfCon .smaInd text{
+  position: relative;
+  top: -10rpx;
+  font-size: 30rpx;
+  color: #067a3a;
+}
+
+
+

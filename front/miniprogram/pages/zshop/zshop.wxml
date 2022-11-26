@@ -1,0 +1,50 @@
+<!--pages/zshop/zshop.wxml-->
+<text class="zfood-tittle">景区购物</text>
+<view class="zfood-list">
+ <z-list zitem="{{item}}" wx:for="{{zshopList}}" wx:key="id" bind:zItem="handleItem"></z-list>
+</view>
+<view class="info" >
+  <!-- <radio-group bindchange="orSend">
+          <view class="select" >
+            <radio value="2"/>
+            <text>游客自提</text>
+          </view>
+          <view class="select" >
+            <radio value="1"/>
+            <text>商家配送</text>
+          </view>
+      </radio-group>
+      <view class="form" wx:if="{{form==1}}">
+        <view class="item">
+    <text>重量:</text>
+    <input type="text" bindinput="weightInput" maxlength="16" class="weui-search-bar__input" placeholder="请输入商品重量" value=""/>
+  </view>
+  <view class="item">
+    <text>瓦楞纸箱:</text>
+    <input type="text" bindinput="boxInput" maxlength="16" class="weui-search-bar__input" placeholder="请输入瓦楞纸箱个数" value=""/>
+  </view>
+  <view class="item">
+    <text>塑料袋:</text>
+    <input type="number" bindinput="bagInput" maxlength="16" class="weui-search-bar__input" placeholder="请输入塑料袋个数" value=""/>
+  </view>
+  <view class="item">
+    <text>配送距离:</text>
+    <input type="number" bindinput="distanceInput" maxlength="16" class="weui-search-bar__input" placeholder="请输入配送距离" value=""/>
+  </view>
+  <radio-group bindchange="sendMethod">
+          <view class="select" >
+            <radio value="1"/>
+            <text>普通物流(陆路运输)</text>
+          </view>
+          <view class="select" >
+            <radio value="2"/>
+            <text>特殊物流(空运)</text>
+          </view>
+      </radio-group>
+      </view> -->
+
+      <!-- <view class="submit">
+        <button class="tap1" hoverClass="tap1-hover" bindtap="buySubmit">确认购买</button>
+      </view> -->
+      
+</view>

@@ -1,0 +1,36 @@
+<!--pages/money/money.wxml-->
+<view class="header">
+    <text class="title">碳普惠造林基金</text>
+</view>
+<view class="middle">
+<view class="content">
+  <text>加入我们!  碳普惠造林基金</text>
+  <text>成为我们的会员</text>
+  <text>我们正在努力的:</text>
+  <text>(实现景区游览零碳排)</text>
+  <text>您能帮助我们的:</text>
+  <view class="form">
+  <view class="item">
+    <text>姓名:</text>
+    <input type="text" bindinput="nameInput" maxlength="16" class="weui-search-bar__input" placeholder="请输入姓名" value=""/>
+  </view>
+  <view class="item">
+    <text>电话:</text>
+    <input type="text" bindinput="phoneInput" maxlength="16" class="weui-search-bar__input" placeholder="请输入电话号码" value=""/>
+  </view>
+  <view class="item">
+    <text>金额:</text>
+    <input type="number" bindinput="moneyInput" maxlength="16" class="weui-search-bar__input" placeholder="请输入赞助金额" value=""/>
+  </view>
+    <button class="tap1" hoverClass="tap1-hover" bindtap="moneySubmit">确认赞助</button>
+  </view>
+</view>
+<view class="adv">
+    <text>关于我们</text>
+    <view>碳普惠造林基金致力于实现景区零碳排，倡导和鼓励游客以步行代替开车、选择低碳饮食、网络购票、预定等低碳行为降低碳排放量，将游客碳排放量量化为造林金额，您可选择捐赠一定数额的造林基金用于公益种树， 共同助力景区零碳排！
+    </view>
+  </view>
+</view>
+<view>
+  <image class="moneyPic" src="cloud://cloud1-1ggq1xwm698c7bd4.636c-cloud1-1ggq1xwm698c7bd4-1307039632/images/moneyBig.png"/>
+</view>

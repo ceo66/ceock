@@ -1,0 +1,12 @@
+<!--pages/question/question.wxml-->
+
+<view class="header">
+    <text class="title">知识科普</text>
+</view>
+<view class="question">
+  <question-item questionItem="{{item}}" wx:for="{{questionR}}" wx:key="questionId" bind:right="handleRight" ></question-item>
+</view>
+<view class="submit">
+  <button class="tap1" hoverClass="tap1-hover" bindtap="submit">确认提交</button>
+</view>
+

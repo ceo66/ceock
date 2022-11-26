@@ -1,0 +1,51 @@
+/* components/zitem/zitem.wxss */
+.zfood-ltem{
+    display: flex;
+    justify-content: space-around;
+    padding: 15px 15px;
+    background-color: rgba(247, 239, 239, 0.603);
+}
+
+.zfood-ltem>image{
+    height: 180rpx;
+    width: 210rpx;
+    border-radius: 10%;
+}
+
+.zfood-ltem .info-box{
+    width: 300rpx;
+    padding: 0px 10px;
+    box-sizing: border-box;
+}
+
+.zfood-name .name{
+   color: #191a1b;
+   font-size: 17px;
+   height: 22px;
+   line-height: 22px;
+   margin-right: 5px;
+}
+.zfood-text{
+    height: 20px;
+    margin-top: 10px;
+}
+.zfood-text .text{
+    color: rgb(42, 165, 48);
+    font-size: 14px;
+}
+.zfood-number{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 100%;
+    margin-top: 10px;
+}
+.zfood-number .number{
+    font-size: 13px;
+    margin-top: 4px;
+    color: #797d82;
+}
+.zfood-ltem>button{
+    background-color: rgb(47, 165, 76);
+    margin: 20px 10px;
+}

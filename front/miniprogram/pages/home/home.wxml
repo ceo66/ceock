@@ -1,0 +1,119 @@
+<!--pages/home/home.wxml-->
+<swiper indicator-dots="true" autoplay="true" circular="true">
+<swiper-item>
+    <image src="https://fitupian.oss-cn-chengdu.aliyuncs.com/fi/images/pic_1.jpg"></image>
+</swiper-item>
+<swiper-item>
+    <image src="https://fitupian.oss-cn-chengdu.aliyuncs.com/fi/images/pic_2.jpg"></image>
+</swiper-item>
+<swiper-item>
+    <image src="https://fitupian.oss-cn-chengdu.aliyuncs.com/fi/images/pic_3.jpg"></image>
+</swiper-item>
+</swiper>
+
+<view class="topTab wrap">
+  <!-- <view  bindtap="toTransportation">
+    <image src="cloud://cloud1-1ggq1xwm698c7bd4.636c-cloud1-1ggq1xwm698c7bd4-1307039632/images/transportation.jpg"></image>
+    <text>交通</text>
+  </view> -->
+<view bindtap="toArea">
+    <image id="area" src="https://fitupian.oss-cn-chengdu.aliyuncs.com/fi/images/spot.jpg"></image>
+    <text>预定</text>
+</view>
+<view  bindtap="toCompensating">
+    <image id="compensating" src="cloud://cloud1-1ggq1xwm698c7bd4.636c-cloud1-1ggq1xwm698c7bd4-1307039632/images/compensating.jpg"></image>
+    <text>碳补偿</text>
+</view>
+<view  bindtap="toTotallist">
+    <image id="compensating" src="cloud://cloud1-1ggq1xwm698c7bd4.636c-cloud1-1ggq1xwm698c7bd4-1307039632/images/问卷管理.png"></image>
+    <text>碳标签</text>
+</view>
+<view bindtap="toShop">
+    <image id="shop" src="https://fitupian.oss-cn-chengdu.aliyuncs.com/fi/images/shop.jpg"></image>
+    <text bindtap="toShop">商城</text>
+    <!-- <navigator open-type="navigate" url="../list/list">榜单</navigator> -->
+</view>
+<view  bindtap="toQuestion">
+    <image id="question" src="cloud://cloud1-1ggq1xwm698c7bd4.636c-cloud1-1ggq1xwm698c7bd4-1307039632/images/question.png"></image>
+    <text>知识科普</text>
+</view>
+</view>
+
+<view class="selfCon mt40">
+  <view class="titleWrap m5">
+    <text><text></text>精选推荐</text>
+    <!-- <text>更多</text> -->
+  </view>
+
+  <movable-area>
+    <movable-view bindtap="toShop" direction="horizontal" inertia>
+    <view>
+      <image src="cloud://cloud1-1ggq1xwm698c7bd4.636c-cloud1-1ggq1xwm698c7bd4-1307039632/images/good/fridge_magnet.jpg"></image>
+      <view class="larInd">冰箱贴</view>
+      <view class="smaInd">
+        <image id="leaf" src="https://fitupian.oss-cn-chengdu.aliyuncs.com/fi/images/leaf.jpg"/>
+        <text>160</text>
+      </view>
+    </view>  
+    <view>
+      <image src="https://fitupian.oss-cn-chengdu.aliyuncs.com/fi/images/good/key.jpg"></image>
+      <view class="larInd">钥匙扣</view>
+      <view class="smaInd">
+        <image id="leaf" src="https://fitupian.oss-cn-chengdu.aliyuncs.com/fi/images/leaf.jpg"/>
+        <text>130</text>
+      </view>
+    </view>  
+    <view>
+      <image src="https://fitupian.oss-cn-chengdu.aliyuncs.com/fi/images/good/bookmark.jpg"></image>
+      <view class="larInd">环保书签</view>
+      <view class="smaInd">
+        <image id="leaf" src="https://fitupian.oss-cn-chengdu.aliyuncs.com/fi/images/leaf.jpg"/>
+        <text>145</text>
+      </view>
+    </view>  
+    <view>
+      <image src="https://fitupian.oss-cn-chengdu.aliyuncs.com/fi/images/good/bookmark_1.jpg"></image>
+      <view class="larInd">文创书签</view>
+      <view class="smaInd">
+        <image id="leaf" src="cloud://cloud1-1ggq1xwm698c7bd4.636c-cloud1-1ggq1xwm698c7bd4-1307039632/images/leaf.jpg"/>
+        <text>200</text>  
+      </view>
+    </view>  
+    <view>
+      <image src="cloud://cloud1-1ggq1xwm698c7bd4.636c-cloud1-1ggq1xwm698c7bd4-1307039632/images/good/lamp.jpg"></image>
+      <view class="larInd">环保灯</view>
+      <view class="smaInd">
+        <image id="leaf" src="https://fitupian.oss-cn-chengdu.aliyuncs.com/fi/images/good/lamp.jpg"/>
+        <text>220</text>
+      </view>
+    </view>  
+    <view>
+      <image src="cloud://cloud1-1ggq1xwm698c7bd4.636c-cloud1-1ggq1xwm698c7bd4-1307039632/images/good/chopsticks.jpg"></image>
+      <view class="larInd">竹筷</view>
+      <view class="smaInd">
+        <image id="leaf" src="cloud://cloud1-1ggq1xwm698c7bd4.636c-cloud1-1ggq1xwm698c7bd4-1307039632/images/leaf.jpg"/>
+        <text>130</text>
+      </view>
+    </view>  
+    <view>
+      <image src="https://fitupian.oss-cn-chengdu.aliyuncs.com/fi/images/good/mocket.jpg"></image>
+      <view class="larInd">手帕</view>
+      <view class="smaInd">
+        <image id="leaf" src="cloud://cloud1-1ggq1xwm698c7bd4.636c-cloud1-1ggq1xwm698c7bd4-1307039632/images/leaf.jpg"/>
+        <text>180</text>
+      </view>
+    </view>
+    <view>
+      <image src="https://fitupian.oss-cn-chengdu.aliyuncs.com/fi/images/good/recycle_bog.jpg"></image>
+      <view class="larInd">环保袋</view>
+      <view class="smaInd">
+        <image id="leaf" src="https://fitupian.oss-cn-chengdu.aliyuncs.com/fi/images/leaf.jpg"/>
+        <text>130s</text>
+      </view>
+    </view>
+    </movable-view>
+  </movable-area>
+
+</view>
+
+

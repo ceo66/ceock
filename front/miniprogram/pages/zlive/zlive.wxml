@@ -1,0 +1,13 @@
+<!--pages/zlive/zlive.wxml-->
+<text class="zfood-tittle">景区住宿</text>
+<view class="distance ml20 mt20">
+    <text class="info">请输入您的居住天数</text>
+    <view class="value">
+      <label class="size">距离:</label> 
+      <input class="inputText" placeholder="请输入距离" bindinput="dayInput"/> 
+    </view>
+  </view>
+<view class="zfood-list">
+ <z-list zitem="{{item}}" wx:for="{{zliveList}}" wx:key="id" bind:zItem="handleItem"></z-list>
+</view>
+

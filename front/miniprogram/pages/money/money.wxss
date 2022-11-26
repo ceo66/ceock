@@ -1,0 +1,88 @@
+/* pages/money/money.wxss */
+page{
+    background-color: #aedd81;
+}
+.moneyPic{
+    position: absolute;
+    top: 55%;
+    z-index: -100;
+}
+.header{
+    background-color: green;
+    height: 100rpx;
+    width: 100%;
+    position: fixed;
+    top: 0rpx;
+    display: flex;
+    justify-content: center;
+    line-height: 100rpx;
+    text-align: center;
+    z-index: 1000;
+}
+.header .title{
+    font-size: larger;
+    height: 60rpx;
+}
+.middle{
+    display: flex;
+    justify-content: space-around;
+    opacity: 0.9;
+}
+.middle .content{
+    margin-top: 130rpx;
+    margin-left: 20rpx;
+    display: flex;
+    flex-direction: column;
+    height: 45%;
+    width: 50%;
+}
+.middle .adv{
+    margin-top: 150rpx;
+    position: relative;
+    right: 15rpx;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(73, 69, 43, 0.938);
+    border-radius: 10%;
+}
+.adv text{
+    background-color: rgb(85, 79, 2);
+    width: 100%;
+    height: 100rpx;
+    line-height: 100rpx;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    border-radius: 20%;
+}
+.adv view{
+    color: white;
+    width: 96%;
+    height: 700rpx;
+    line-height: 21px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.content .form{
+    margin-top: 60rpx;
+    background-color: white;
+    width: 96%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10%;
+}
+.form .item{
+    margin-top: 20rpx;
+    margin-left: 15rpx;
+    margin-right: 10rpx;
+    display: flex;
+    justify-content: start;
+}
+.item text{
+    width: 160rpx;
+}

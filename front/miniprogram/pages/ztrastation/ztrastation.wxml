@@ -1,0 +1,12 @@
+<!--pages/ztrastation/ztrastation.wxml-->
+<text class="zfood-tittle">景区交通</text>
+<view class="distance ml20 ">
+    <!-- <text class="info">请输入您使用该交通工具的距离</text>
+    <view class="value">
+      <label class="size">距离:</label> 
+      <input class="inputText" placeholder="请输入距离" bindinput="distanceInput"/> 
+    </view> -->
+  </view>
+<view class="zfood-list">
+ <z-list zitem="{{item}}" wx:for="{{ztrastationList}}" wx:key="id" bind:zItem="handleItem"></z-list>
+</view>

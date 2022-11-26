@@ -1,0 +1,63 @@
+<!--pages/my/my.wxml-->
+<view class="my">
+<view class="head">
+  <view class="top" wx:if="{{userID!='0001'}}">
+    <text class="username">{{name}}</text>
+    <view class="asset">
+      <text>碳积分：</text>
+      <text>{{score}}</text>
+      <image src="https://fitupian.oss-cn-chengdu.aliyuncs.com/fi/images/leaf.jpg"/>
+    </view>
+  </view>
+  <view class="top2" wx:if="{{userID=='0001'}}">
+      <view class="no">
+        <text>暂未登录</text>
+      </view>
+    </view>
+ <view class="carbon">
+   <image src="cloud://cloud1-1ggq1xwm698c7bd4.636c-cloud1-1ggq1xwm698c7bd4-1307039632/images/carbon.jpg"/>
+ </view>
+</view>
+  <view class="top-adv">
+    <view class="adv">
+      <text>碳中和</text>
+      <text>节能低碳从现在做起</text>
+      <text id="refresh" bindtap="refresh">刷新</text>
+    </view>
+  </view>
+  <view class="LR">
+    <view class="login" bindtap="login">
+    <image src="cloud://cloud1-1ggq1xwm698c7bd4.636c-cloud1-1ggq1xwm698c7bd4-1307039632/images/login.png"/>
+    <text>登录</text>
+    </view>
+    <view class="register" bindtap="register">
+    <image src="cloud://cloud1-1ggq1xwm698c7bd4.636c-cloud1-1ggq1xwm698c7bd4-1307039632/images/register.png"/>
+      <text>注册</text>
+    </view>
+    <view class="register" bindtap="logout">
+    <image src="cloud://cloud1-1ggq1xwm698c7bd4.636c-cloud1-1ggq1xwm698c7bd4-1307039632/images/stopLogin.png"/>
+      <text>注销</text>
+    </view>
+  </view>
+  <view class="middle mt40">
+    <view class="list" bindtap="toMyTree">
+      <text>我的小树</text>
+    </view>
+    <view class="list" bindtap="toTransportation">
+      <text>交通碳排放</text>
+    </view>
+    <view class="list" bindtap="toArea">
+      <text>景区预定</text>
+    </view>
+    <view class="list" bindtap="toQuestion">
+      <text>知识科普</text>
+    </view>
+    <view class="list" bindtap="toGoods">
+      <text>低碳商城</text>
+    </view>
+    <view class="list">
+      <text>修改密码</text>
+    </view>
+  </view>
+
+</view>

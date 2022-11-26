@@ -1,0 +1,101 @@
+<!--pages/totallist/totallist.wxml-->
+<view class="all">
+<view class="totallist">
+   <view class="a-list">
+    <image src="https://636c-cloud1-1ggq1xwm698c7bd4-1307039632.tcb.qcloud.la/images/carbon_white.jpg?sign=f306479bc8d220c9b89c7e65e25f9d0f&t=1646836586"></image>
+    <text class="a-dt">一份碳排放账单账单已出炉</text>
+    <text class="a-xt">一起来看看本次旅行共排放多少碳吧</text>
+   </view>
+   <view class="b-left">
+      <text class="b-t1">碳排放总量</text>
+      <text class="b-t2">17.952</text>
+      <text class="b-t3">Kg</text>
+   </view>
+   <view class="b-right">
+      <text class="b-t1">排名高于</text>
+      <view>
+      <text class="b-t2">33.5%</text>
+      <text class="b-t3">的人</text>
+      </view>
+   </view>
+   <view class="c-list">
+     <view class="c-l">
+      <image src="https://636c-cloud1-2gnvc5llaa91050f-1307039059.tcb.qcloud.la/QQ%E5%9B%BE%E7%89%8720220310205058.png?sign=1a1aa4dc3622356e22632024e8db9aab&t=1646916715">
+      </image>
+     </view>
+
+     <view class="c-r">
+          <text class="t1">你的消费遍布各个领域</text>
+          <view class="r-2">
+           <text class="t21">其中，在</text>
+           <text class="t22">住宿</text>
+           <text class="t23">的消费占比最高</text>
+          </view>
+          <view class="r-3">
+           <text class="t31">本次旅游共花费</text>
+           <text class="t32">360</text>
+           <text class="t33">元</text>
+          </view>
+          <view class="r-4">
+           <text class="t41">累计产生碳排放</text>
+           <text class="t42">17.952</text>
+           <text class="t43">kg</text>
+          </view>
+          
+     </view>
+
+   </view>
+   <view class="d-list">
+        <view class="tittle">
+          <text class="m11">项目</text>
+          <text class="m12">花费</text>
+          <text class="m13">碳排放</text>
+        </view>
+        <view class="m-food">
+          <text class="m-tittle">饮食:</text>
+          <view class="m-list">                <!-- 这来wx-for foodList-->
+           <text class="m21">奶酪</text>
+           <text class="m22">10元</text>
+           <text class="m23">4.05kg</text>
+          </view>
+        </view>
+        <view class="m-food">
+          <text class="m-tittle">住宿:</text>
+          <view class="m-list">                <!-- 这来wx-for liveList-->
+           <text class="m21">民宿</text>
+           <text class="m22">200元</text>
+           <text class="m23">7.51kg</text>
+          </view>
+        </view>
+        <view class="m-food">
+          <text class="m-tittle">交通:</text>
+          <view class="m-list">                <!-- 这来wx-for travelList-->
+           <text class="m21">电车</text>
+           <text class="m22">20元</text>
+           <text class="m23">0.975kg</text>
+          </view>
+        </view>
+        <view class="m-food">
+          <text class="m-tittle">娱乐:</text>
+          <view class="m-list">                <!-- 这来wx-for gameList-->
+           <text class="m21">温泉</text>
+           <text class="m22">100元</text>
+           <text class="m23">0.417kg</text>
+          </view>
+        </view>
+        <view class="m-food">
+          <text class="m-tittle">纪念品:</text>
+          <view class="m-list">         
+           <text class="m21">制品</text>
+           <text class="m22">30元</text>
+           <text class="m23">5kg</text>
+          </view>
+        </view>
+        <view class="total">                    <!-- 这看你想不想来个totalList-->
+          <text class="m11">合计：</text>
+          <text class="m12">360元</text>
+          <text class="m13">17.952kg</text>
+        </view>
+   </view>
+</view>
+</view>

@@ -1,0 +1,25 @@
+<!--pages/login/login.wxml-->
+<view class="login">
+<view class="top">
+  <image src="https://fitupian.oss-cn-chengdu.aliyuncs.com/fi/images/pic_3.jpg"/>
+</view>
+<view class="form mtl"> 
+<!--账号-->
+<view class="inputView"> 
+  <label class="loginLab">账号</label> 
+  <input class="inputText" placeholder="请输入用户名" bindinput="usernameInput" /> 
+ </view> 
+ <view class="line"></view> 
+ 
+ <!--密码-->
+ <view class="inputView"> 
+  <label class="loginLab">密码</label> 
+  <input class="inputText" password="true" placeholder="请输入密码" bindinput="passwordInput" /> 
+ </view> 
+ 
+ <!--按钮-->
+ <view class="loginBtnView"> 
+  <button class="loginBtn" type="primary"  bindtap="login">登录</button> 
+ </view> 
+ </view>
+</view>

@@ -1,0 +1,14 @@
+<!--pages/myTree/myTree.wxml-->
+<view class="header">
+    <text class="title">我的小树</text>
+</view>
+<view class="middle">
+  <view class="tree" wx:for="{{treeList}}" wx:key="id">
+  <image src="{{item.pic}}"/>
+  <view class="info">
+    <text class="name">树名:{{item.treeName}}</text>
+    <text class="efficient">效率:{{item.efficient}}kg/日</text>
+  </view>
+</view>
+</view>
+

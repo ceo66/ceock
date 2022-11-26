@@ -1,0 +1,37 @@
+<view id="body">
+  <view class="distance ml20 mt20">
+    <text class="info">请输入您居住地到景区的距离</text>
+    <view class="value">
+      <label class="size">距离:</label> 
+      <input class="inputText" placeholder="请输入距离" bindinput="distanceInput"/> 
+    </view>
+  </view>
+  <view class="method mt20 ml20">
+    <text class="info">请选择您到达景区的交通方式</text>
+    <view class="select">
+      <view class="first">
+      <view class="item" bindtap="select" data-method="1">
+         <image src="cloud://cloud1-1ggq1xwm698c7bd4.636c-cloud1-1ggq1xwm698c7bd4-1307039632/images/plane.jpg"/>
+         <text>飞机</text>
+      </view>
+      <view class="item"  bindtap="select" data-method="2">
+         <image src="cloud://cloud1-1ggq1xwm698c7bd4.636c-cloud1-1ggq1xwm698c7bd4-1307039632/images/bus.jpg"/>
+         <text>大巴</text>
+      </view>
+      </view>
+      <view class="second">
+        <image src="cloud://cloud1-1ggq1xwm698c7bd4.636c-cloud1-1ggq1xwm698c7bd4-1307039632/images/carbon_white.jpg"/>
+      </view>
+      <view class="third">
+        <view class="item"  bindtap="select" data-method="3">
+         <image src="cloud://cloud1-1ggq1xwm698c7bd4.636c-cloud1-1ggq1xwm698c7bd4-1307039632/images/train.jpg"/>
+         <text>高铁</text>
+      </view>
+      <view class="item"  bindtap="select" data-method="4">
+         <image src="cloud://cloud1-1ggq1xwm698c7bd4.636c-cloud1-1ggq1xwm698c7bd4-1307039632/images/car.jpg"/>
+         <text>自驾</text>
+      </view>
+      </view>
+    </view>
+  </view>
+</view>

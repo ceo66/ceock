@@ -1,0 +1,72 @@
+<!--pages/zlist/zlist.wxml-->
+<text class="zlist-tittle">景区</text>
+<view class="zfood" bindtap="tozfood">
+    <view class="zfood-tittle">景区餐饮</view>
+    <movable-area>
+     <movable-view out-of-bounds direction="horizontal" style="width:{{285*zfoodList.length}}rpx">
+       <view class="zfood-box" wx:for="{{zfoodList}}" wx:key="id">
+          <image src="{{item.path}}"></image>
+          <view class="zfood-name">{{item.name}}</view>
+          <!-- <view class="zfood-text">碳排放比例:{{item.number}}</view> -->
+          <view class="zfood-text">价格:{{item.price}}元</view>
+       </view>
+     </movable-view>
+    </movable-area>
+   <view></view>
+  </view>
+<view class="zfood" bindtap="toztrastation">
+    <view class="zfood-tittle">景区交通</view>
+    <movable-area>
+     <movable-view out-of-bounds direction="horizontal" style="width:{{285*ztrastationList.length}}rpx">
+       <view class="zfood-box" wx:for="{{ztrastationList}}" wx:key="id">
+          <image src="{{item.path}}"></image>
+          <view class="zfood-name">{{item.name}}</view>
+          <!-- <view class="zfood-text">碳排放比例:{{item.number}}</view> -->
+          <view class="zfood-text">价格:{{item.price}}元</view>
+       </view>
+     </movable-view>
+    </movable-area>
+   <view></view>
+  </view>
+  <view class="zfood" bindtap="tozlive">
+    <view class="zfood-tittle">景区住宿</view>
+    <movable-area>
+     <movable-view out-of-bounds direction="horizontal" style="width:{{285*zliveList.length}}rpx">
+       <view class="zfood-box" wx:for="{{zliveList}}" wx:key="id">
+          <image src="{{item.path}}"></image>
+          <view class="zfood-name">{{item.name}}</view>
+          <!-- <view class="zfood-text">碳排放比例:{{item.number}}</view> -->
+          <view class="zfood-text">价格:{{item.price}}元</view>
+       </view>
+     </movable-view>
+    </movable-area>
+   <view></view>
+  </view>
+  <view class="zfood" bindtap="tozvisit">
+    <view class="zfood-tittle">景区游览</view>
+    <movable-area>
+     <movable-view out-of-bounds direction="horizontal" style="width:{{285*zvisitList.length}}rpx">
+       <view class="zfood-box" wx:for="{{zvisitList}}" wx:key="id">
+          <image src="{{item.path}}"></image>
+          <view class="zfood-name">{{item.name}}</view>
+          <!-- <view class="zfood-text">碳排放比例:{{item.number}}</view> -->
+          <view class="zfood-text">价格:{{item.price}}元</view>
+       </view>
+     </movable-view>
+    </movable-area>
+   <view></view>
+  </view>
+  <view class="zfood" bindtap="tozshop">
+    <view class="zfood-tittle">景区购物</view>
+    <movable-area>
+     <movable-view out-of-bounds direction="horizontal" style="width:{{285*zshopList.length}}rpx">
+       <view class="zfood-box" wx:for="{{zshopList}}" wx:key="id">
+          <image src="{{item.path}}"></image>
+          <view class="zfood-name">{{item.name}}</view>
+          <view class="zfood-text">价格:{{item.price}}元</view>
+          <!-- <view class="zfood-text">碳积分：{{item.text}}</view> -->
+       </view>
+     </movable-view>
+    </movable-area>
+   <view></view>
+  </view>

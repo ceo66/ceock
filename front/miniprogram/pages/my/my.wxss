@@ -1,0 +1,130 @@
+/* pages/my/my.wxss */
+.my{
+  background-color: rgb(255, 255, 255);
+}
+.mt40{
+  margin-top: 40rpx;
+}
+.head{
+  display: flex;
+  flex-direction:row;
+  justify-content:space-between ;
+}
+.head .carbon{
+  height: 200rpx;
+  width: 300rpx;
+}
+.head .carbon image{
+  height: 100%;
+  width: 100%;
+}
+.top{
+  height: 200rpx;
+  width: 100%;
+  background-color: #057c05;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.top2{
+  height: 200rpx;
+  width: 100%;
+  background-color: #057c05;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.top2 .no text{
+  color: aliceblue;
+  margin-left: 20rpx;
+  font-size: larger;
+}
+.username{
+  color: aliceblue;
+  margin-left: 20rpx;
+  font-size: larger;
+}
+.asset{
+  position: relative;
+  top: -16rpx;
+  margin-left: 20rpx;
+}
+.asset image{
+  height: 50rpx;
+  width: 50rpx;
+}
+.asset :first-child{
+  color: rgb(247, 253, 249);
+}
+.asset text{
+  color: rgb(16, 211, 81);
+  position: relative;
+  top: -10rpx;
+}
+.top-adv{
+  background-color: #057c05;
+  position: relative;
+  width: 100%;
+  height: 120rpx;
+  display: flex;
+  flex-direction: column;
+}
+.adv{
+  width: 100%;
+  height: 90rpx;
+  line-height: 90rpx;
+  background-color: rgb(33, 53, 41);
+  color: white;
+  font-style: oblique;
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+  position: absolute;
+  bottom: 0;
+  border-radius: 10%;
+}
+#refresh{
+  font-size: larger;
+  color: #0affeb;
+}
+.LR{
+  margin-top: 20rpx;
+  border-radius: 5%;
+  border-style: groove;
+  display: flex;
+  justify-content: space-around;
+  height: 120rpx;
+  background-color: #d4d7d8;
+}
+.LR .login{
+  height: 120rpx;
+  line-height: 120rpx;
+  text-align: center;
+}
+.LR image{
+  position: relative;
+  top: 10rpx;
+  height: 50rpx;
+  width: 50rpx;
+  margin-right: 10rpx;
+}
+.LR .register{
+  height: 120rpx;
+  line-height: 120rpx;
+  text-align: center;
+}
+.middle{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.middle .list{
+  background-color: rgb(202, 223, 112);
+  border-style:groove;
+  line-height: 100rpx;
+  height: 100rpx;
+}
+.middle .list text{
+  font-size: 40dp;
+  margin-left: 20rpx;
+}

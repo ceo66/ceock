@@ -1,0 +1,93 @@
+/* pages/zshop/zshop.wxss */
+page{
+    background-color:antiquewhite;
+}
+.zfood-tittle{
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    background-color: rgb(42, 165, 97);
+    width: 100%;
+    position: fixed;
+    z-index: 1000;
+}
+.zfood-list{
+    margin-top: 30rpx;
+}
+.zfood-ltem{
+    display: flex;
+    padding: 15px 15px;
+    background-color: rgba(169, 169, 169, 0.603);
+}
+
+.zfood-ltem>image{
+    height: 160rpx;
+    width: 200rpx;
+}
+
+.zfood-ltem .info-box{
+    width: 360rpx;
+    padding: 0px 10px;
+    box-sizing: border-box;
+}
+
+.zfood-name .name{
+   color: #191a1b;
+   font-size: 18px;
+   height: 22px;
+   line-height: 22px;
+   margin-right: 5px;
+}
+.zfood-text{
+    height: 20px;
+    margin-top: 10px;
+}
+.zfood-text .text{
+    color: rgb(42, 165, 48);
+    font-size: 14px;
+}
+.zfood-number{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 100%;
+    margin-top: 10px;
+}
+.zfood-number .number{
+    font-size: 13px;
+    margin-top: 4px;
+    color: #797d82;
+}
+.zfood-ltem>button{
+    background-color: rgb(47, 165, 76);
+    margin: 20px 10px;
+}
+.info{
+    background-color: antiquewhite;
+}
+.info radio-group{
+    margin-top: 20rpx;
+    display: flex;
+    justify-content: space-around;
+}
+.info .form{
+    margin-bottom: 10rpx;
+}
+.form .item{
+
+    margin-left: 25rpx;
+    margin-top: 20rpx;
+}
+.info .submit{
+    background-color: antiquewhite;
+    position: fixed;
+    height: 100rpx;
+    width: 100%;
+    bottom: 0rpx;
+    display: flex;
+    justify-content: center;
+    line-height: 100rpx;
+    text-align: center;
+    z-index: 999;
+    border-radius: 6%;
+}

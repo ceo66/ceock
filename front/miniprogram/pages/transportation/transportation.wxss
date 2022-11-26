@@ -1,0 +1,66 @@
+/* pages/transportation/transportation.wxss */
+#body{
+  background-color: white;
+  height: 100%;
+  width:  100%;
+}
+.mt20{
+  margin-top: 20rpx;
+}
+.ml20{
+  margin-left: 20rpx;
+}
+.distance{
+  display: flex;
+  flex-direction: column;
+}
+.distance .info{
+  font-size: larger;
+}
+.distance .value{
+  margin-top: 10rpx;
+  display: flex;
+}
+.value .inputText{
+  border:inset;
+}
+.method{
+  display: flex;
+  flex-direction: column;
+}
+.method .info{
+  font-size: larger;
+}
+.method .select{
+  margin-top: 20rpx;
+  display: flex;
+  flex-direction: column;
+}
+.select image{
+  border-radius: 10%;
+  height: 250rpx;
+  width: 300rpx;
+}
+.select .second{
+  text-align: center;
+}
+.second image{
+  height: 350rpx;
+  width: 450rpx;
+}
+.select .first{
+  display: flex;
+  justify-content: space-around;
+}
+.select .third{
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 40rpx;
+}
+.select .item{
+  display: flex;
+  flex-direction: column;
+}
+.item text{
+  text-align: center;
+}

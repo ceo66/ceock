@@ -1,0 +1,16 @@
+<!--components/goodsItem/goodsItem.wxml-->
+<view class="goodsItem">
+  <view class="goodsPic">
+    <image src="{{goodsItem.goodsPic}}"/>
+  </view>
+  <view class="content">
+    <text class="name">{{goodsItem.goodsName}}</text>
+    <view class="buy">
+      <view class="score">
+        <image src="https://fitupian.oss-cn-chengdu.aliyuncs.com/fi/images/leaf.jpg"/>
+        <text class="size">{{goodsItem.goodsScore}}</text>
+      </view>
+      <button class="button" bindtap="handleDetail" data-id="{{goodsItem.goodsId}}">购买</button>
+    </view>
+  </view>
+</view>

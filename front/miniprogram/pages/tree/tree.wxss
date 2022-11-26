@@ -1,0 +1,119 @@
+/* pages/tree/tree.wxss */
+page{
+    background-color: #aedd81;
+}
+.header{
+    background-color: green;
+    height: 100rpx;
+    width: 100%;
+    position: fixed;
+    top: 0rpx;
+    display: flex;
+    justify-content: center;
+    line-height: 100rpx;
+    text-align: center;
+    z-index: 1000;
+}
+.header .title{
+    font-size: larger;
+    height: 60rpx;
+}
+.treePic image{
+        position: absolute;
+        top: 30%;
+        z-index: -100;
+}
+.middle{
+    margin-top: 110rpx;
+    height: 500rpx;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    text-align: center;
+    opacity: 0.9;
+}
+.middle .welcome{
+    text-align: left;
+    margin-left: 30rpx;
+    font-size: large;
+    
+}
+.middle .adv{
+    margin-top: 20rpx;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(73, 69, 43, 0.938);
+    border-radius: 10%;
+    align-self: center;
+}
+.adv text{
+    background-color: rgb(85, 79, 2);
+    width: 100%;
+    height: 100rpx;
+    line-height: 100rpx;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    border-radius: 20%;
+}
+.adv view{
+    margin-top: 20rpx;
+    color: white;
+    width: 96%;
+    height: 350rpx;
+    line-height: 21px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.middle .buy{
+    font-size: larger;
+    font-weight: 1000;
+    font-stretch: expanded;
+    color: rgb(1, 58, 23);
+    position: relative;
+    left: -250rpx;
+}
+movable-area{
+    margin-top: 20rpx;
+    height: 400rpx;
+    width: 100%;
+  }
+  movable-view{
+    height: 400rpx;
+    width: 280%;
+    display: flex;
+  }
+  movable-view view{
+    margin-left: 20rpx;
+    font-size: large;
+    font-weight: 1000;
+    font-stretch: expanded;
+  }
+  movable-view view image{
+      height:400rpx;
+      width: 500rpx;
+      border-radius: 10%;
+  }
+  .selfCon image{
+    border: 3px solid rgb(68, 199, 90);
+    border-radius: 6%;
+    height: 300rpx;
+    width: 580rpx;
+  }
+  .selfCon view{
+    margin-right: 1.8%;
+  }
+  .selfCon .larInd{
+    margin-left: 22rpx;
+    color: #067a3a;
+    font-size: 34rpx;
+  }
+  .selfCon .smaInd text{
+    position: relative;
+    top: -10rpx;
+    font-size: 30rpx;
+    color: #067a3a;
+  }

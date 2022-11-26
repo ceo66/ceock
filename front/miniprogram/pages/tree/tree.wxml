@@ -1,0 +1,29 @@
+<!--pages/tree/tree.wxml-->
+<view class="header">
+    <text class="title">认养小树</text>
+</view>
+<view class="middle">
+  <text class="welcome">欢迎加入我们的队伍</text>
+  <view class="adv">
+    <text>认养小知识</text>
+    <view>为踏实践行零碳旅游，特此推出“认养小树”活动计划，以“云认养、云关注”的方式展开，鼓励游客朋友们积极认养属于自己的小树。您还可以实时在该平台上联系我们的工作人员关注小树生长状况
+    </view>
+  </view>
+  <text class="buy">认养小树</text>
+  <movable-area>
+    <movable-view direction="horizontal" inertia>
+    <view wx:for="{{treeList}}" data-treeItem="{{item}}" wx:key="id" bindtap="handleItem">
+      <image src="{{item.path}}"></image>
+      <view class="larInd">{{item.name}}</view>
+      <view class="smaInd">
+        <text>认养经费:{{item.price}}元</text>
+      </view>
+    </view>
+   
+
+    </movable-view>
+  </movable-area>
+</view>
+<view class="treePic">
+  <image src="cloud://cloud1-1ggq1xwm698c7bd4.636c-cloud1-1ggq1xwm698c7bd4-1307039632/images/bigTree.png"/>
+</view>

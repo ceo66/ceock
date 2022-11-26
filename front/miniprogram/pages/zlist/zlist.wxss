@@ -1,0 +1,54 @@
+/* pages/zlist/zlist.wxss */
+.zlist-tittle{
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    background-color: rgb(42, 165, 97);
+}
+.zfood{
+    background-color: #fff;
+    margin: 20rpx 0;
+}
+.zfood-tittle{
+    width: 100%;
+    padding: 15px;
+    color: rgb(42, 165, 97);
+}
+.zfood-box{
+    width: 270rpx;
+    height: 262rpx;
+}
+.zfood-box image{
+    height: 170rpx;
+    width: 270rpx;
+    display: block;
+}
+.zfood-box .zfood-name{
+    padding-top: 10px;
+    font-size: 12px;
+    color: #191a1b;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    text-align: center;
+}
+.zfood-box .zfood-text{
+    font-size: 10px;
+    color: rgb(42, 165, 97);
+    text-align: center;
+}
+movable-area{
+    width: calc(750rpx - 40rpx);
+    height: 263rpx;
+    margin-left: 30rpx;
+    margin-right: 10rpx;
+}
+movable-view{
+    width: auto;
+    height: 263rpx;
+    display: flex;
+}
+movable-view view{
+    margin-right: 10px;
+}

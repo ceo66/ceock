@@ -1,0 +1,5 @@
+<!--pages/zfood/zfood.wxml-->
+<text class="zfood-tittle">景区餐饮</text>
+<view class="zfood-list">
+ <z-list zitem="{{item}}" wx:for="{{zfoodList}}" wx:key="id"  bind:zItem="handleItem"></z-list>
+</view>

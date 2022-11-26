@@ -1,0 +1,12 @@
+/* components/questionItem/questionItem.wxss */
+.question{
+    margin-top: 10rpx;
+    margin-bottom: 10rpx;
+}
+.question .number{
+    margin-left: 20rpx;
+}
+.question .answer{
+    margin-top: 10rpx;
+    margin-left: 15rpx;
+}

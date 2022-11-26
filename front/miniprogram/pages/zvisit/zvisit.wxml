@@ -1,0 +1,6 @@
+<!--pages/zvisit/zvisit.wxml-->
+<text class="zfood-tittle">景区游览</text>
+<view class="zfood-list">
+ <z-list zitem="{{item}}" wx:for="{{zvisitList}}" wx:key="id" bind:zItem="handleItem"></z-list>
+</view>
+

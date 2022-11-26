@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "z-list":"../../components/zitem/zitem"
+  }
+}

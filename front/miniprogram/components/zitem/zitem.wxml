@@ -1,0 +1,17 @@
+<!--components/zitem/zitem.wxml-->
+<view class="zfood-ltem">
+      <image src="{{zitem.path}}"></image>
+      <view class="info-box">
+         <view class="zfood-name">
+           <text class="name">{{zitem.name}}</text>
+         </view>
+         <view class="zfood-text" wx:if="{{zitem.number>0}}">
+           <!-- <text class="text">碳排放比例:{{zitem.number}}</text> -->
+           <text class="text">价格:{{zitem.price}}元</text>
+         </view>
+         <view class="zfood-number">
+        <!--   <text class="number">剩余数量:x{{zitem.number}}</text>  -->  
+         </view>
+      </view>
+      <button style="width:280rpx;height:80rpx;" bindtap="taptap">预定</button>
+    </view>

@@ -1,0 +1,27 @@
+/* pages/login/login.wxss */
+.login{
+  width: 100%;
+  height: 100%;
+}
+.mtl{
+  margin-left: 20rpx;
+}
+.top{
+  width: 100%;
+  height: 480rpx;
+}
+.top image{
+  width: 100%;
+  height: 450rpx;
+}
+.form .inputView{
+  margin: 10rpx ;
+}
+.form .inputView .inputText{
+  margin-top: 10rpx;
+  border-radius: 6%;
+  border: groove;
+}
+.form .loginBtnView{
+  margin-top: 20rpx;
+}

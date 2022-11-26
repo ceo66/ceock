@@ -1,0 +1,37 @@
+/* pages/question/question.wxss */
+page{
+  background-color: #c9e6ae;
+}
+.header{
+  background-color: green;
+  height: 100rpx;
+  width: 100%;
+  position: fixed;
+  top: 0rpx;
+  display: flex;
+  justify-content: center;
+  line-height: 100rpx;
+  text-align: center;
+  z-index: 1000;
+}
+.header .title{
+  font-size: larger;
+  height: 60rpx;
+}
+.question{
+  margin-top: 110rpx;
+  margin-bottom: 110rpx;
+}
+.submit{
+  background-color: rgb(92, 235, 92);
+  position: fixed;
+  height: 100rpx;
+  width: 100%;
+  bottom: 0rpx;
+  display: flex;
+  justify-content: center;
+  line-height: 100rpx;
+  text-align: center;
+  z-index: 999;
+  border-radius: 6%;
+}

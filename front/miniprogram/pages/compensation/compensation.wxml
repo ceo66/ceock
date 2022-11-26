@@ -1,0 +1,49 @@
+<!--pages/compensation/compensation.wxml-->
+<view class="body">
+<view class="data">
+  <text>整个旅途中，您一共产生了{{total}}kg碳排放</text>
+  <!-- <text>景区外中:</text>
+  <view class="part">
+    <image src="cloud://cloud1-1ggq1xwm698c7bd4.636c-cloud1-1ggq1xwm698c7bd4-1307039632/images/transportation.jpg"/>
+   <text>交通工具:{{info.transportation}}kg</text>
+  </view> -->
+  <text>景区内中:</text>
+  <view class="part">
+    <image src="cloud://cloud1-1ggq1xwm698c7bd4.636c-cloud1-1ggq1xwm698c7bd4-1307039632/images/traffic.png"/>
+   <text>交通:{{info.traffic}}kg</text>
+  </view>
+  <view class="part">
+    <image src="cloud://cloud1-1ggq1xwm698c7bd4.636c-cloud1-1ggq1xwm698c7bd4-1307039632/images/eating.png"/>
+    <text>餐饮:{{info.eating}}kg</text>
+  </view>
+  <view class="part">
+    <image src="cloud://cloud1-1ggq1xwm698c7bd4.636c-cloud1-1ggq1xwm698c7bd4-1307039632/images/shopping.png"/>
+    <text>购物:{{info.shopping}}kg</text>
+  </view>
+  <view class="part">
+    <image src="cloud://cloud1-1ggq1xwm698c7bd4.636c-cloud1-1ggq1xwm698c7bd4-1307039632/images/sleeping.png"/>
+    <text>住宿:{{info.sleeping}}kg</text>
+  </view>
+  <view class="part">
+    <image src="cloud://cloud1-1ggq1xwm698c7bd4.636c-cloud1-1ggq1xwm698c7bd4-1307039632/images/playing.png"/>
+    <text>游览:{{info.playing}}kg</text> 
+  </view>
+
+  <text>等于一棵树吸收二氧化碳{{day}}天</text>
+</view>
+
+<view class="adv">
+  <text>现在是你为地球生态做出改变的时候！</text>
+  <view class="method">
+    <view  bindtap="toMoney">
+      <image src="cloud://cloud1-1ggq1xwm698c7bd4.636c-cloud1-1ggq1xwm698c7bd4-1307039632/images/money.png"></image>
+      <text>加入造林基金</text>
+    </view>  
+    <view bindtap="toTree">
+      <image src="cloud://cloud1-1ggq1xwm698c7bd4.636c-cloud1-1ggq1xwm698c7bd4-1307039632/images/tree.png"></image>
+      <text>认养你的小树</text>
+    </view>
+  </view>
+</view>
+
+</view>

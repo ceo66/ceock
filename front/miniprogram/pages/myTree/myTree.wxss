@@ -1,0 +1,42 @@
+/* pages/myTree/myTree.wxss */
+page{
+  background-color: #aedd81;
+}
+.header{
+  background-color: green;
+  height: 100rpx;
+  width: 100%;
+  position: fixed;
+  top: 0rpx;
+  display: flex;
+  justify-content: center;
+  line-height: 100rpx;
+  text-align: center;
+  z-index: 1000;
+}
+.header .title{
+  font-size: larger;
+  height: 60rpx;
+}
+.middle{
+  margin-top: 90rpx;
+}
+.tree{
+  display: flex;
+  height: 300rpx;
+  width: 100%;
+  margin-top: 30rpx;
+}
+.tree image{
+  height: 300rpx;
+  width: 40%;
+  border-radius: 10%;
+}
+.tree .info{
+  margin-left: 30rpx;
+  height: 300rpx;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}

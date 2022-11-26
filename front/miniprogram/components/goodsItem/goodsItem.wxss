@@ -1,0 +1,45 @@
+/* components/goodsItem/goodsItem.wxss */
+.goodsItem{
+  display: flex;
+  background-color: antiquewhite;
+}
+.goodsItem .goodsPic image{
+  margin-top: 20rpx;
+  margin-left: 20rpx;
+  height: 250rpx;
+  width: 250rpx;
+  border-radius: 10%;
+}
+.goodsItem .content{
+  margin-left: 20rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.content .name{
+  font-size: larger;
+}
+.content .buy{
+  display: flex;
+}
+.buy .score{
+  display: flex;
+  position: relative;
+  top: 20rpx;
+}
+.score image{
+  height: 60rpx;
+  width: 60rpx;
+  margin-right: 10rpx;
+  border: 0;
+}
+.score .size{
+  position: relative;
+  left: -15rpx;
+  top: 8rpx;
+  color: #057c05;
+}
+.buy button{
+  position: relative;
+  top: 5rpx;
+}
